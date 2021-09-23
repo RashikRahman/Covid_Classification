@@ -1,0 +1,8 @@
+model,best_score,best_params
+RANDOM_FOREST,0.936609337,"{'criterion': 'entropy', 'max_depth': 6, 'n_estimators': 11, 'random_state': 13}"
+SVM,0.933005733,"{'C': 9, 'gamma': 'auto', 'kernel': 'rbf'}"
+LOGISTIC_REGRESSION,0.927616708,"{'C': 1, 'multi_class': 'auto', 'solver': 'lbfgs'}"
+AdaBoostClassifier,0.925782146,"{'algorithm': 'SAMME', 'learning_rate': 0.8, 'n_estimators': 42}"
+KNeighborsClassifier,0.922178542,"{'algorithm': 'auto', 'leaf_size': 27, 'n_neighbors': 6, 'weights': 'distance'}"
+GaussianNB,0.904144144,{}
+DecisionTreeClassifier,0.882522523,"{'criterion': 'gini', 'max_depth': 14}"

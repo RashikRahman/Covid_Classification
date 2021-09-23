@@ -14,8 +14,8 @@ import numpy as np
 
 app = Flask(__name__)
 
-
-def predict():
+# Front End
+def predict(): # Function
     with popup("Covid Classification"):
         put_text("Good to see you again, the prediction may take upto 7 sec depending on image resulation. Have patience.")
 
@@ -39,7 +39,7 @@ def predict():
 
 
 
-
+# Backend
 
 
 app.add_url_rule('/tool', 'webio_view', webio_view(predict),
