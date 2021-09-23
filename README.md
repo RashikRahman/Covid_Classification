@@ -1,2 +1,4 @@
-# Covid_Classification
+# Pneumonia classification from covid patient chest xray
+
+
  
